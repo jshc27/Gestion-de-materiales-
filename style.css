@@ -88,3 +88,8 @@ main {
     justify-content: center;
 
 }
+
+.containerObservaciones input {
+
+    width: 300px;
+}
