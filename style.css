@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+
+    width: 100vw;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.title p {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo img {
+
+    margin-left: 40px;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.info-Complement {
+
+    margin-right: 40px;
+    font-size: 12px;
+}
+
+.title-politics {
+    font-size: 10px;
+}
+
+main {
+
+    height: 100vh;
+}
+
+.IngresoElementos {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.DatosIngreso1, .DatosIngreso2, .DatosIngreso3, .ElementDetails {
+    margin-top: 25px;
+}
+
+.DatosIngreso1 label, .DatosIngreso2 label, .DatosIngreso3 label {
+    cursor: pointer;
+}
+.containerDatos {
+
+    display:flex;
+    margin: 25px;
+    padding: 25px;
+    border: 1px solid #064d83;
+    border-radius: 20px;
+
+}
+
+.containerObservaciones {
+    display:flex;
+    margin: 25px;
+    border: 1px solid black;
+}
+
+.containerObservaciones h3 {
+
+    margin-left: 20px;
+}
+
+.containerImage, .containerFooter {
+
+    display: flex;
+    justify-content: center;
+
+}
