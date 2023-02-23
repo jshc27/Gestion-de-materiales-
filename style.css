@@ -6,7 +6,7 @@
 
 header {
 
-    width: 100vw;
+    width: auto;
     display: flex;
     font-size: 20px;
     font-weight: 500;
@@ -65,7 +65,7 @@ main {
     grid-gap: 10px;
     margin: 25px;
     padding: 25px;
-    border: 1px solid #064d83;
+    border: 1px solid #0d4577;
     border-radius: 20px;
 
 }
@@ -81,9 +81,11 @@ form {
 
 
 .containerObservaciones {
-    display:flex;
+
+    display:grid;
     margin: 25px;
     border: 1px solid black;
+    
 }
 
 .containerObservaciones h3 {
@@ -100,5 +102,6 @@ form {
 
 .containerObservaciones input {
 
-    width: 300px;
+    width: auto;
+    margin: 0px 20px 10px;
 }
