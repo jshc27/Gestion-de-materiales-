@@ -54,22 +54,31 @@ main {
 
 }
 
-.DatosIngreso1, .DatosIngreso2, .DatosIngreso3, .ElementDetails {
-    margin-top: 25px;
-}
-
 .DatosIngreso1 label, .DatosIngreso2 label, .DatosIngreso3 label {
     cursor: pointer;
 }
 .containerDatos {
 
-    display:flex;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
     margin: 25px;
     padding: 25px;
     border: 1px solid #064d83;
     border-radius: 20px;
 
 }
+
+input {
+    width: 180px;
+}
+
+form {
+    padding-bottom: 10px;
+    display: grid;
+}
+
 
 .containerObservaciones {
     display:flex;
