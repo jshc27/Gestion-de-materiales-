@@ -47,6 +47,11 @@ main {
     height: 100vh;
 }
 
+button {
+
+   
+}
+
 .IngresoElementos {
 
     display: flex;
